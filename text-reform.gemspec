@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{text-reform}
-  s.version = %q{0.2.0}
+  s.version = %q{0.2.1}
   s.summary = %q{Text::Reform reformats text according to formatting pictures.}
   s.platform = Gem::Platform::RUBY
 
@@ -31,5 +31,5 @@ Gem::Specification.new do |s|
   end
   s.description = description[2..-1].join(" ")
 
-  s.add_dependency('text-hyphen', '~>1.0.0')
+  s.add_dependency('text-hyphen', '~>1.4.1')
 end
